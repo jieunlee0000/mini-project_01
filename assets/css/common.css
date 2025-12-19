@@ -1,0 +1,124 @@
+/* 공통 레이아웃 스타일 */
+
+#wrap {
+    width: 100%;
+    min-width: 1600px;
+}
+/* --------HEADER---------- */
+#header {
+    background: gray;
+    display: flex;
+    justify-content: center;
+}
+#header .inner {
+    width: 1600px;
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header .inner h1 {
+}
+#header .inner h1 img {
+    width: 270px;
+    height: 48px;
+}
+#header .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+#header .nav .gnb {
+    display: flex;
+    white-space: nowrap;
+    gap: 60px;
+}
+#header .nav .gnb li a {
+    color: #fff;
+    font-size: 22px;
+}
+#header .nav .all-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#header .nav .all-menu i {
+    font-size: 28px;
+    color: #fff;
+}
+
+/* --------Footer---------- */
+
+#footer {
+    /* background: orange; */
+    display: flex;
+    justify-content: center;
+    padding: 96px 0;
+}
+#footer .inner {
+    width: 1600px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+}
+#footer .footer_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 30px;
+    border-bottom: 4px solid #6B6B6B;
+}
+
+#footer .inner .footer_top img {
+    width: 604px;
+    height: 108px;
+}
+#footer .footer_top a {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#footer .inner .company_connect {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 64px;
+}
+#footer .inner .company_connect li {
+    font-size: 22px;
+    font-weight: 600;
+    color: #6b6b6b;
+}
+#footer .inner .company_connect a {
+    font-size: 50px;
+    color: #222;
+    gap: 30px;
+    justify-content: center;
+}
+#footer .page_up a {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+}
+#footer .page_up p {
+    color: #222;
+    font-size: 22px;
+    font-weight: 600;
+}
+#footer .page_up i {
+    font-size: 50px;
+    color: #222;
+}
+
+#footer .inner .copyright p {
+    padding-top: 40px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
